@@ -1,0 +1,1027 @@
+﻿{
+  "name": "super_mario",
+  "steps": [
+    { "type": "beep", "action": { "frequency": 659, "duration": 125
+      } },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 375 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 392,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 375 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    { "type": "pause", "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 392,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 330,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 494,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 466,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 392,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 880,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 494,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 392,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 330,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 494,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 466,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 392,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 880,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 494,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 375 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 415,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 625 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 415,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 1125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 415,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 625 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 784,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 740,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 698,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 42 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 659,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 167 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 415,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 125 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 440,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 622,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 587,
+        "duration": 125
+      }
+    },
+    {
+      "type": "pause",
+      "action": { "duration": 250 }
+    },
+    {
+      "type": "beep",
+      "action": {
+        "frequency": 523,
+        "duration": 125
+      }
+    }
+  ]
+}

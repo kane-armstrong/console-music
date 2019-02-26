@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sheets\imperial_march.json" />
+    <None Remove="Sheets\super_mario.json" />
+    <None Remove="Sheets\tetris.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sheets\tetris.json" />
+    <EmbeddedResource Include="Sheets\imperial_march.json" />
+    <EmbeddedResource Include="Sheets\super_mario.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Pedantic.IO.EmbeddedResource" Version="0.9.0-pre-02" />
+  </ItemGroup>
+
+</Project>
