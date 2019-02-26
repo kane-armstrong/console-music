@@ -49,28 +49,13 @@ namespace BeepBeep
                 {
                     var sheet = SheetFile.Load(Sheets[input]);
                     Console.Write($"Now playing: {sheet.Name} ... ");
-                    PlaySheet(sheet);
+                    sheet.Play();
                     Console.WriteLine("done!");
                 }
                 catch (Exception)
                 {
+                    Console.WriteLine("oops :(");
                     Console.WriteLine("An error occurred while playing your selection. Looks like that songs busted!");
-                }
-            }
-        }
-
-        private static void PlaySheet(ConsoleMusicSheet sheet)
-        {
-            foreach (var configuration in sheet.Steps)
-            {
-                if (configuration.Type == StepType.Pause)
-                {
-                    Thread.Sleep(configuration.Action.Duration);
-                }
-                else
-                {
-                    var frequency = configuration.Action.Frequency ?? throw new ArgumentException(nameof(sheet.Steps));
-                    Console.Beep(frequency, configuration.Action.Duration);
                 }
             }
         }
