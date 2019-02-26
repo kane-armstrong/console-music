@@ -8,10 +8,16 @@ namespace BeepBeep.Models
     public class ConsoleMusicSheet
     {
         [JsonProperty("name")]
-        public string Name { get; set; }
+        public string Name { get; }
 
         [JsonProperty("steps")]
-        public Step[] Steps { get; set; }
+        public Step[] Steps { get; }
+
+        public ConsoleMusicSheet(string name, Step[] steps)
+        {
+            Name = name ?? throw new ArgumentException(nameof(name));
+            Steps = steps ?? throw new ArgumentException(nameof(steps));
+        }
 
         public void Play()
         {
