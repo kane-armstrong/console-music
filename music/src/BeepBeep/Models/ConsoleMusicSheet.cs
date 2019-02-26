@@ -11,6 +11,9 @@ namespace BeepBeep.Models
         [JsonProperty("steps")]
         public Step[] Steps { get; set; }
 
-        public static ConsoleMusicSheet FromJson(string json) => JsonConvert.DeserializeObject<ConsoleMusicSheet>(json, Converter.Settings);
+        public static ConsoleMusicSheet FromJson(string json)
+        {
+            return JsonConvert.DeserializeObject<ConsoleMusicSheet>(json, Converter.Settings);
+        }
     }
 }

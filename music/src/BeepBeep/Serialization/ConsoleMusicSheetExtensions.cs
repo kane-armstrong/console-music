@@ -5,6 +5,9 @@ namespace BeepBeep.Serialization
 {
     public static class ConsoleMusicSheetExtensions
     {
-        public static string ToJson(this ConsoleMusicSheet self) => JsonConvert.SerializeObject(self, Converter.Settings);
+        public static string ToJson(this ConsoleMusicSheet self)
+        {
+            return JsonConvert.SerializeObject(self, Converter.Settings);
+        }
     }
 }

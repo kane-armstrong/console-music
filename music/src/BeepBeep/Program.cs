@@ -8,7 +8,7 @@ namespace BeepBeep
 {
     internal class Program
     {
-        private static Dictionary<string, string> Sheets = new Dictionary<string, string>
+        private static readonly Dictionary<string, string> Sheets = new Dictionary<string, string>
         {
             {"1", "super_mario.json"},
             {"2", "imperial_march.json"},
@@ -33,7 +33,7 @@ namespace BeepBeep
                     Console.WriteLine("Invalid selection!");
                     continue;
                 }
-                
+
                 if (input.Equals("q", StringComparison.InvariantCultureIgnoreCase))
                 {
                     break;

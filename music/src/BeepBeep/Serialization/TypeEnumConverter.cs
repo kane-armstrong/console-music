@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
+﻿using BeepBeep.Models;
+using Newtonsoft.Json;
 using System;
-using BeepBeep.Models;
 
 namespace BeepBeep.Serialization
 {
