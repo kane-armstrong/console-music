@@ -1,8 +1,6 @@
-﻿using BeepBeep.Models;
-using BeepBeep.Sheets;
+﻿using BeepBeep.Sheets;
 using System;
 using System.Collections.Generic;
-using System.Threading;
 
 namespace BeepBeep
 {
@@ -15,7 +13,7 @@ namespace BeepBeep
             {"3", "tetris.json"},
         };
 
-        private static void Main(string[] args)
+        private static void Main()
         {
             while (true)
             {
