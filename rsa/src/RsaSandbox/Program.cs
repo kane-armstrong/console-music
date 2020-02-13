@@ -12,6 +12,11 @@ namespace RsaSandbox
             var privateKey = rsa1.ExportPrivateKey();
             var publicKey = rsa1.ExportPublicKey();
 
+            var privateKeyBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(privateKey));
+            var publicKeyBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(publicKey));
+            Console.WriteLine($"Private key: {privateKeyBase64}");
+            Console.WriteLine($"Public key: {publicKeyBase64}");
+            
             const string text = "Hello World!";
             var encryptedBytes = rsa1.Encrypt(Encoding.UTF8.GetBytes(text), RSAEncryptionPadding.OaepSHA512);
             var encryptedText = Convert.ToBase64String(encryptedBytes);
