@@ -1,34 +1,38 @@
 ﻿using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace RsaSandbox
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var rsa1 = RSA.Create();
-            var privateKey = rsa1.ExportPrivateKey();
-            var publicKey = rsa1.ExportPublicKey();
-
+            var keySource = RSA.Create();
+            var privateKey = keySource.ExportPrivateKey();
+            var publicKey = keySource.ExportPublicKey();
             var privateKeyBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(privateKey));
             var publicKeyBase64 = Convert.ToBase64String(Encoding.UTF8.GetBytes(publicKey));
             Console.WriteLine($"Private key: {privateKeyBase64}");
             Console.WriteLine($"Public key: {publicKeyBase64}");
-            
+
             const string text = "Hello World!";
-            var encryptedBytes = rsa1.Encrypt(Encoding.UTF8.GetBytes(text), RSAEncryptionPadding.OaepSHA512);
+
+            var encryptor = RSA.Create();
+            var encryptedBytes = encryptor.Encrypt(Encoding.UTF8.GetBytes(text), RSAEncryptionPadding.OaepSHA512);
             var encryptedText = Convert.ToBase64String(encryptedBytes);
 
-            var rsa2 = RSA.Create();
-            rsa2.ImportPrivateKeyFromPem(privateKey);
-            var decryptedText1 = Encoding.UTF8.GetString(rsa2.Decrypt(Convert.FromBase64String(encryptedText), RSAEncryptionPadding.OaepSHA512));
-            Console.WriteLine(decryptedText1);
+            // won't work. see https://cs.stackexchange.com/a/59695/49789
+            var decryptor = RSA.Create();
+            decryptor.ImportPublicKeyFromPem(publicKey);
+            var decryptedText = Encoding.UTF8.GetString(decryptor.Decrypt(Convert.FromBase64String(encryptedText), RSAEncryptionPadding.OaepSHA512));
+            Console.WriteLine(decryptedText);
 
-            var rsa3 = RSA.Create();
-            rsa3.ImportPublicKeyFromPem(publicKey);
-            var decryptedText2 = Encoding.UTF8.GetString(rsa2.Decrypt(Convert.FromBase64String(encryptedText), RSAEncryptionPadding.OaepSHA512));
+            // will work
+            var decryptorThatWorks = RSA.Create();
+            decryptor.ImportPrivateKeyFromPem(privateKey);
+            var decryptedText2 = Encoding.UTF8.GetString(decryptor.Decrypt(Convert.FromBase64String(encryptedText), RSAEncryptionPadding.OaepSHA512));
             Console.WriteLine(decryptedText2);
         }
     }
